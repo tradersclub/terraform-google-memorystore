@@ -94,7 +94,7 @@ variable "maintenance_policy" {
   # type = object(any)
   type = object({
     day      = string
-    duration = number
+    duration = string
     start_time = object({
       hours   = number
       minutes = number
